@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color:aliceblue;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:  300;
+  font-style: normal;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+/* 
+o align items alinha verticalmente quando o flex direction esta no column,mas 
+quando esta no row ele trabalha horizontalmente,e o justify content quando
+esta no row ele trabalha horizontalmete e no cplumn ao contrario
+*/
+.tarefas{
+background-color: #161616;
+display:flex;
+flex-direction: column;
+justify-content:;
+align-items: flex-start;
+gap: 1px
+;
+
+
+}
+#sub{
+display: flex;
+margin-top: 0%;
+margin-bottom: 10px;
+gap: 1%;
+}
+.containerheader{
+display: flex;
+flex-direction: column;
+margin: 0px;
+
+}
+.conteinerbarra{
+background-color: aliceblue;
+height: 10px;
+width: 10%;  
+}
+.corinterna{
+background-color:black;
+height: 10px;
+width: 19px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+
+
+}
+
+
+
